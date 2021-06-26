@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="css/Register.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+
+        <main>
+          <div class="form-img">
+            <div class="form-text">
+              <h2>AnyLease</h2>
+              <small>Your Number 1 Equipment Leasing Company</small>
+            </div>
+          </div>
+
+          <div class="form-wrapper">
+            <h2>Sign up</h2>
+            <span id="side-tag"></span>
+            <form>
+              <div class="input-group">
+                <input
+                  type="text"
+                  name="fullname"
+                  id="fullname"
+                  placeholder="Enter Full Name"
+                  autofocus
+                  required
+                />
+                <div class="error-msg"></div>
+              </div>
+
+              <div class="input-group">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter Email Address"
+                  required
+                />
+                <div class="error-msg1"></div>
+              </div>
+
+              <div class="input-group">
+                <input
+                  type="tel"
+                  name="tel"
+                  id="tel"
+                  placeholder="Enter Phone Number"
+                  required
+                />
+
+                <div class="error-msg2"></div>
+              </div>
+
+              <div class="input-group">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Enter Password"
+                  required
+                />
+                <span class="password-icon"> <i class="fa fa-eye"></i> </span>
+                <div class="error-msg3"></div>
+              </div>
+
+              <div id="input-group" class="input-group">
+                <small
+                  >By Clicking Sign-Up, you agree to our
+
+                  <a href="#">Terms of use</a> and our
+                  <a href="#">Privacy Policy.</a></small
+                >
+              </div>
+
+              <div class="input-group">
+                <button type="submit" id="btn">Sign up</button>
+              </div>
+              <div class="input-group">
+                <small> Already have an account? <a href="#">Sign in</a></small>
+              </div>
+            </form>
+
+            <div class="span-group">
+              <svg width="120" height="5">
+                <line
+                  x1="0"
+                  y1="0"
+                  x2="110"
+                  y2="0"
+                  stroke="gainsboro"
+                  stroke-width="1px"
+                />
+              </svg>
+              <small id="options">Or</small>
+
+              <svg width="120" height="5">
+                <line
+                  x1="10"
+                  y1="0"
+                  x2="120"
+                  y2="0"
+                  stroke="gainsboro"
+                  stroke-width="1px"
+                />
+              </svg>
+            </div>
+            <div class="social-btn">
+              <button id="googleBtn">
+                <img id="google-img" src="Assets/google_PNG19635 1.png" />via
+                Google
+              </button>
+              <button id="facebookBtn">
+                <img id="facebook-img" src="Assets/path1536.png" />via Facebook
+              </button>
+            </div>
+          </div>
+        </main>
+    
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
