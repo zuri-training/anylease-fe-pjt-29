@@ -143,7 +143,7 @@ nav ul a {
 }
 
 #intro .intro-des {
-    margin:auto;
+    margin: auto;
     padding: 5rem;
 }
 
@@ -159,23 +159,19 @@ nav ul a {
     /* width: 100px; */
 }
 
-.display-images img:nth-child(3) {
+.display-images img:nth-child(3) {}
 
-}
-
-.display-images img:nth-child(6) {
-
-}
+.display-images img:nth-child(6) {}
 
 .summary p {
     text-align: center;
 }
 
-.summary p:nth-child(1){
+.summary p:nth-child(1) {
     color: #737A82;
 }
 
-.summary p:nth-child(2){
+.summary p:nth-child(2) {
     font-size: 2rem;
     font-weight: 500;
 }
@@ -196,9 +192,9 @@ nav ul a {
 #categories-description div {
     padding: 1.5rem;
     background: #bbdaf5;
-border: 1px solid #D1E5FA;
-border-radius: 10px;
-color: #1B4D74;
+    border: 1px solid #D1E5FA;
+    border-radius: 10px;
+    color: #1B4D74;
 }
 
 #reasons-description {
@@ -208,7 +204,7 @@ color: #1B4D74;
 }
 
 #reasons-description div {
-    padding: 5.5rem;  
+    padding: 5.5rem;
 }
 
 #reasons-description p:nth-child(2) {
@@ -230,30 +226,30 @@ color: #1B4D74;
 
 .testimonial {
     /* height: 250px; */
-	width: 35%;
-	/* min-width: 200px; */
-	background: #2A75C0;
-	display: block;
+    width: 35%;
+    /* min-width: 200px; */
+    background: #2A75C0;
+    display: block;
     color: white;
-	margin: 0 auto;
-	border-radius: 10px;
-	margin-top: -13px;
-	/* font-size: 200px; */
-	text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: -13px;
+    /* font-size: 200px; */
+    text-align: center;
     padding: 1.5rem;
 }
 
 .pointer {
     height: 30px;
-	width: 40px;
-	background: #2A75C0;
-	margin: 0 auto;
-	transform: rotate(45deg);
-	border-radius: 0 0 12px 0;
-	margin-top: -22px;
-	position: relative;
-	left: calc(0.5vw - 8px);
-	top: calc(0.5vw);
+    width: 40px;
+    background: #2A75C0;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    border-radius: 0 0 12px 0;
+    margin-top: -22px;
+    position: relative;
+    left: calc(0.5vw - 8px);
+    top: calc(0.5vw);
 }
 
 footer {
@@ -308,26 +304,31 @@ footer {
 }
 
 @media only screen and (min-width: 961px) {
-    h1 { font-size: 28px; }
+    h1 {
+        font-size: 28px;
+    }
 
     /* .testimonials-images {
         transform: scale(0.7);
     }  */
 
-    
-    }
+
+}
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
-    h1 { font-size: 28px; }
+    h1 {
+        font-size: 28px;
+    }
 
-      .testimonials-images  {
+    .testimonials-images {
         /* display: flex; */
-    } 
+    }
 
-    .testimonials-images img:nth-child(1), .testimonials-images img:nth-child(7) {
+    .testimonials-images img:nth-child(1),
+    .testimonials-images img:nth-child(7) {
         display: none;
     }
-    
+
     .display-images img {
         max-width: 100%;
         width: 100px;
@@ -356,17 +357,23 @@ footer {
         padding: 2rem;
     }
 }
-    
-    /*  Smartphones in landscape mode */
-    
-    @media only screen and (min-width: 461px) and (max-width: 767px) {
-    h1 { font-size: 24px; }
+
+/*  Smartphones in landscape mode */
+
+@media only screen and (min-width: 461px) and (max-width: 767px) {
+    h1 {
+        font-size: 24px;
+    }
 
     #intro .intro-des {
-        margin:auto;
+        margin: auto;
         padding: 0;
     }
-    .testimonials-images img:nth-child(1), .testimonials-images img:nth-child(7), .testimonials-images img:nth-child(2), .testimonials-images img:nth-child(6) {
+
+    .testimonials-images img:nth-child(1),
+    .testimonials-images img:nth-child(7),
+    .testimonials-images img:nth-child(2),
+    .testimonials-images img:nth-child(6) {
         display: none;
     }
 
@@ -405,7 +412,7 @@ footer {
         padding: 2rem;
     }
 
-    
+
     .copyright {
         display: none;
     }
@@ -414,23 +421,30 @@ footer {
         display: block;
         color: white;
     }
+}
+
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 460px) {
+
+
+    html {
+        font-size: 12px;
     }
-    
-    /*  Smartphones in portrait mode  */
-    
-    @media only screen and (max-width: 460px) {
 
-
-        html {
-            font-size: 12px;
-        }
-    h1 { font-size: 20px; }
+    h1 {
+        font-size: 20px;
+    }
 
     #intro .intro-des {
-        margin:auto;
+        margin: auto;
         padding: 0;
     }
-    .testimonials-images img:nth-child(1), .testimonials-images img:nth-child(7), .testimonials-images img:nth-child(2), .testimonials-images img:nth-child(6) {
+
+    .testimonials-images img:nth-child(1),
+    .testimonials-images img:nth-child(7),
+    .testimonials-images img:nth-child(2),
+    .testimonials-images img:nth-child(6) {
         display: none;
     }
 
