@@ -1,0 +1,26 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.free {
+   font-size: 16px;
+   line-height: 32px;
+   background-color: #ECF5FD !important;
+   width: 90% !important;
+  }
+
+.bluepart{
+   min-height: 200px;
+   background-color: #00f;
+}
+
