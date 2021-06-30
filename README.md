@@ -54,7 +54,7 @@ Note: I f it's a bug fix, use "bug:message" for branch and commit message
 
 # STEPS TO CREATING A PULL REQUEST
 Step 1. After pushing your commit to github, navigate to your repository page on github where you pushed
-Step 2. Click the green Compare & pull request button to begin the pull request
+Step 2. Click the green Compare & pull request button to begin the pull request, click
 Step 3. Before submitting the pull request, you first need to describe the changes you made
 Step 4. Write a descriptive title for your pull request, and then include more details in the body of the pull request. If there are any related GitHub issues, make sure to mention those by number. The body should include the number assigned to the task.for example Closes #1, to link your pull request to the assigned github issue
 
