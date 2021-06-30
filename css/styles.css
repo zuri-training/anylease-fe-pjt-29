@@ -486,4 +486,64 @@ footer {
         color: white;
     }
 
+    footer {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+/* STYLES FOR PROFILE LEASER PAGE */
+.form-element label {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #838A90;
+}
+
+.form-element input {
+    background: #FFFFFF;
+border: 0.5px solid #60666C;
+box-sizing: border-box;
+display: block;
+padding: 15px;
+width: 100%;
+border-radius: 5px;
+}
+
+#profile, #about-me{
+    background: #EDF1F4;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.14);
+border-radius: 7px;
+text-align: center;
+padding: 3rem;
+}
+
+#profile-form {
+    background: #EDF1F4;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.14);
+border-radius: 7px;
+}
+
+#profile-account {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 30% 70%;
+}
+
+#profile-about {
+    height: 100%;
+}
+
+#form {
+    padding: 16px;
 }
