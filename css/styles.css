@@ -309,7 +309,7 @@ footer {
     color: white;
 }
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 1000px) {
     h1 { font-size: 28px; }
 
     /* .testimonials-images {
@@ -317,7 +317,7 @@ footer {
     }  */
 
     
-    }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
     h1 { font-size: 28px; }
@@ -416,7 +416,7 @@ footer {
         display: block;
         color: white;
     }
-    }
+}
     
     /*  Smartphones in portrait mode  */
     
@@ -525,7 +525,7 @@ box-sizing: border-box;
 box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.14);
 border-radius: 7px;
 text-align: center;
-padding: 3rem;
+padding: 2.5rem;
 }
 
 #profile-form {
@@ -539,7 +539,7 @@ border-radius: 7px;
 #profile-account {
     display: grid;
     gap: 2rem;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
 }
 
 #profile-about {
@@ -548,4 +548,29 @@ border-radius: 7px;
 
 #form {
     padding: 16px;
+}
+
+#profile-form button {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 461px) and (max-width: 767px) {
+#profile-account {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 100%;
+}
+}
+
+@media only screen and (max-width: 460px) {
+    #profile-account {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 100%;
+    }
 }
