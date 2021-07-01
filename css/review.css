@@ -51,6 +51,7 @@ html{
 	padding-bottom: 3em;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .hrc_1 {
@@ -72,8 +73,7 @@ html{
 	column-gap: 1.5em;
 	color:var(--color_4);
 	font-size: var(--font_head);
-	position: relative;
-	left:28em;
+	position: static;
 }
 
 .content {
@@ -240,12 +240,14 @@ input:focus,.lk_input:focus {
 
 .footer .ft_row2{
 	display: flex;
-	column-gap: 12em;
-    justify-content: center;
+	/*column-gap: 12em;
+    justify-content: center;*/
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .footer .u_ft{
-	padding:2em;
+	padding:2em 0.5em;
 	padding-bottom: 0em;
 }
 .logo_wrap{
@@ -293,9 +295,11 @@ li:last-child{
 }
 .wid_body{
 	display: inline-flex;
-	column-gap: 0.5em;
+	gap: 0.5em;
 	align-self: flex-end;
 	margin-top: 2.5em;
+	flex-wrap: wrap;
+
 }
 
 .wid_body .u_wid {
@@ -416,10 +420,10 @@ input[type="radio"]:checked::before {
 
 }
 
-.section .review_rate{
+.section .p_rate{
 	background-color: var(--color_1);
-	width:25em;
-	height: 5em;
+	width:/*25em*/40%;
+	height: /*5em*/3em;
 	position:absolute;
 	bottom: 0%; 
 	box-shadow: 1px -1px 5px var(--color_3);
@@ -442,4 +446,9 @@ input[type="radio"]:checked::before {
 	margin-bottom: 15em;
 	text-align: center;
 	padding:1em;
+}
+
+
+.sz_media_change {
+	
 }
