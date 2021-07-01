@@ -222,10 +222,12 @@ color: #1B4D74;
 
 .testimonials-images {
     text-align: center;
+    text-align-last: justify;
 }
 
 .testimonials-images img {
-    padding: 2rem;
+    padding: 1rem;
+    height: fit-content;
 }
 
 .testimonial {
@@ -237,7 +239,7 @@ color: #1B4D74;
     color: white;
 	margin: 0 auto;
 	border-radius: 10px;
-	margin-top: -13px;
+	margin-top: -6px;
 	/* font-size: 200px; */
 	text-align: center;
     padding: 1.5rem;
@@ -307,7 +309,7 @@ footer {
     color: white;
 }
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 1000px) {
     h1 { font-size: 28px; }
 
     /* .testimonials-images {
@@ -315,7 +317,7 @@ footer {
     }  */
 
     
-    }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
     h1 { font-size: 28px; }
@@ -372,7 +374,7 @@ footer {
 
     .testimonial {
         width: 55%;
-        margin-top: -17px;
+        margin-top: -10px;
     }
 
     .display-images img {
@@ -414,7 +416,7 @@ footer {
         display: block;
         color: white;
     }
-    }
+}
     
     /*  Smartphones in portrait mode  */
     
@@ -443,7 +445,7 @@ footer {
 
     .testimonial {
         width: 75%;
-        margin-top: -17px;
+        margin-top: -10px;
     }
 
 
@@ -486,4 +488,89 @@ footer {
         color: white;
     }
 
+    footer {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+/* STYLES FOR PROFILE LEASER PAGE */
+.form-element label {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #838A90;
+}
+
+.form-element input {
+    background: #FFFFFF;
+border: 0.5px solid #60666C;
+box-sizing: border-box;
+display: block;
+padding: 15px;
+width: 100%;
+border-radius: 5px;
+}
+
+#profile, #about-me{
+    background: #EDF1F4;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.14);
+border-radius: 7px;
+text-align: center;
+padding: 2.5rem;
+}
+
+#profile-form {
+    background: #EDF1F4;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.14);
+border-radius: 7px;
+}
+
+#profile-account {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 40% 60%;
+}
+
+#profile-about {
+    height: 100%;
+}
+
+#form {
+    padding: 16px;
+}
+
+#profile-form button {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 461px) and (max-width: 767px) {
+#profile-account {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 100%;
+}
+}
+
+@media only screen and (max-width: 460px) {
+    #profile-account {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 100%;
+    }
 }
